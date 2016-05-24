@@ -1,10 +1,10 @@
 Scanning Example:
 
+```
 from Libraries.Bluetooth.Bluetooth import *
 import sys
 import json
 
-```
 if len(sys.argv) < 4:
     sys.exit("Usage: %s device-type device-name timeout" % sys.argv[0])
 
